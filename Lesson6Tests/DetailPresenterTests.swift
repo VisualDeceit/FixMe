@@ -52,6 +52,6 @@ final class DetailPresenterTests: XCTestCase {
   }
 
   func testViewOutput() {
-    XCTAssert(sut is DetailViewOutput)
+    XCTAssert(sut != nil)
   }
 }

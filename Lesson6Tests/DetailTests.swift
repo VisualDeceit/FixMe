@@ -1,7 +1,7 @@
 import XCTest
 @testable import Lesson6
 
-final class DeatailTests: XCTestCase {
+final class DetailTests: XCTestCase {
 
   func testDetailAssembly() {
     let sut = DetailAssembly.assemble(artistId: 0)
