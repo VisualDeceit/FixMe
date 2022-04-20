@@ -9,7 +9,7 @@
 import UIKit
 
 final class ListRouter: ListRouterInput {
-    weak var view: (ListViewInput & UIViewController)?
+    var view: (ListViewInput & UIViewController)?
     
     func openDetailView(for artistId: Int) {
         let viewController = DetailAssembly.assemble(artistId: artistId)
